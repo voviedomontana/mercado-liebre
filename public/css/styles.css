@@ -1,0 +1,348 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+.main-header {
+    background-color: #eac926;
+}
+
+.parte-arriba-header {
+    display: flex;
+}
+
+.main-header-top-bar {
+    flex-wrap: wrap;    
+    padding: 10px;
+}
+
+footer article i {
+    color: blue;
+}
+
+.hamburger-button {
+    background-color: #03264c;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    max-height: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    font-size: 19px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 50%;
+    padding: 10px;
+}
+
+.comentario-header {
+    font-weight: 400;
+    text-align: center;
+    font-size: 15px;
+}
+
+.main-navbar {
+    display: none;
+
+}
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #222222 ;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 15px;
+}
+
+p {
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+
+.precio {
+    font-size:18px;
+    width: 30%;
+}
+
+.descuento {
+    font-size:16px;
+    font-weight: normal;
+    margin-top: 1px;
+}
+
+h3,
+.descripcion {
+    color: #666;
+    display: none;
+}
+
+main section article i,
+.descuento {
+    color: #39b54a;
+}
+
+main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.main-footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.product_img {
+    width: 100%;
+}
+
+
+section.banner img {
+    width: 100%;
+}
+
+.section-ultima-visita a {
+    list-style: none;
+    text-decoration: none;
+    color: #222222;
+}
+
+div.form {
+    display: flex;
+    padding: 10px 5px;
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    color: #666;
+}
+
+div.input {
+    display: flex;
+    width: 100%;
+}
+
+div.input input {
+    border: none;
+    width: 90%;
+}
+
+div.input button {
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+div.lupa i {
+    font-size: 15px;
+}
+
+.fa-truck {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+article:hover {
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+    position: relative;
+    transition: all 100ms;
+}
+
+article:hover .fa-truck{
+    transform: rotate(-90deg);
+}
+
+article:hover .descripcion{ 
+    visibility: visible;
+}
+
+.descripcion{
+    visibility: hidden;
+    transition: all 450ms;
+}
+
+article div.main-article {
+    border-top: 1px solid #ebebeb;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    position: relative;
+}
+
+.main-footer span {
+    font-size: 10px;
+}
+
+/* tablet */
+
+@media (min-width: 768px) {
+    .top-header{
+        display: flex;
+    }
+    
+    .main-header-top-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+  
+    .comentario-header {
+        max-width: 350px;
+        text-align: right;
+    }
+    header nav ul {
+        display: flex;
+        justify-content: space-around;
+        margin: 15px;
+    }
+    .hamburger-button {
+        display: none;
+    }
+    .descripciones{
+        margin-top: 10px;
+    }
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar li {
+        margin: 0 5px;
+    }
+    .logo img {
+        width: 50%;
+    }
+
+    .pie-foto {
+        justify-content: space-between;
+    }
+    h3,
+    .descripcion {
+        color: #666;
+        display:flex
+    }
+    .comentario-header{
+        width: 30%;
+    }
+    .buscador{
+        width: 50%;
+    }
+    article:hover {
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+        position: relative;
+        transition: all 400ms;
+    }
+    main section div.productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    main section article {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .logo {
+        width: 35%;
+    }
+    .buscador{
+        width: 85%;
+    }
+    .top-header{
+        display: flex;
+    }
+    
+    .main-header-top-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .comentario-header {
+        width: 40%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .copy-header {
+        max-width: none;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .main-navbar li {
+        margin: 0 10px;
+    }
+    .main-navbar a {
+        font-size: 19px;
+    }
+    .top-header{
+        display: flex;
+        width: 100%;
+        margin-top: 10px;
+        
+    }
+    header{
+        padding: 10px;
+    }
+    .parte-arriba-header{
+        width: 183%;
+        
+    }
+     article:hover {
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+        position: relative;
+        transition: all 400ms;
+    }
+    main section div.productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    main section article {
+        width: 22%;
+    }
+    .main-footer {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    .main-footer article p {
+        font-size: 15px;
+    }
+    .main-footer span {
+        font-size: 10px;
+    }
+}
