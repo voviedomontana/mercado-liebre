@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const publicPath = path.resolve(__dirname,'./public');
 app.use(express.static(publicPath))
 
-const PORT = 5000
+const PORT = 3000
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -31,7 +31,7 @@ app.get('/login', function(req, res) {
 });
 
 app.listen(process.env.PORT || PORT, ()=>{
-    console.log('Servidor andando sin problemas en el puerto 5000')
+    console.log('Servidor andando sin problemas en el puerto 3000')
 });
     
 
