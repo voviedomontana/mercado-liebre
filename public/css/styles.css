@@ -327,7 +327,9 @@ form button {
         justify-content: space-between;
     }
     main section article {
-        width: 30%;
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+        width: 45%;
+        margin: 10px 0px;
     }
     .footer-content {
         flex-direction: row;
