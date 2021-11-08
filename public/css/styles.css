@@ -169,7 +169,7 @@ p {
     display: block;
 }
 
-.ml-verde {
+.green-car {
     color: #39b54a;
     background-color: white;
     border: 1px solid green;
@@ -177,12 +177,12 @@ p {
     padding: 5px;
 }
 
-article:hover .ml-verde {
+article:hover .green-car{
     transform: rotate(-90deg);
     transition: transform 450ms;
 }
 
-.ml-azul {
+.blue-symbol {
     color: #1065be;
     font-size: 25px;
     margin: 10px;
