@@ -113,7 +113,7 @@ main h2 {
     text-align: center;
 }
 
-article {
+article .product-article {
     box-shadow: 0px 0px 10px rgb(100,100,100);
     padding: 0;
     margin: 10px 0;
@@ -121,6 +121,7 @@ article {
 
 article img {
     width: 100%;
+    box-shadow: 0px 0px 10px rgb(100,100,100);
 }
 
 .last-visit article:hover,
@@ -135,6 +136,9 @@ article img {
 
 .product-info {
     border-top: 1px solid #ebebeb;
+    width: 100%;
+    padding: 15px;
+    display: flex;
 }
 
 p {
