@@ -76,7 +76,10 @@ section.banner img {
 }
 
 .main-navbar {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -84,6 +87,7 @@ nav ul {
     margin: 0;
     padding: 0;
 }
+
 
 nav a {
     text-decoration: none;
@@ -299,18 +303,18 @@ form button {
     .header-top {
         width: 70%;
     }
+    
     header nav ul {
         display: flex;
         justify-content: space-around;
         margin: 15px;
     }
+
     .main-navbar {
         display: flex;
         justify-content: space-between;
     }
-    .main-navbar li {
-        margin: 0 5px;
-    }
+
     .hamburger-button {
         display: none;
     }
