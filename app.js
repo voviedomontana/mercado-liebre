@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.static('public'));
 
-app.listen(3050, ()=>{
+app.listen(process.env.PORT || 3050, ()=>{
     console.log('Servidor funcionando en el puerto 3050');
 });
 
