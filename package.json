@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "html_css",
+=======
+  "name": "mercado-libre2",
+>>>>>>> 47d552ccfd3262cf0929e352f90ce3d8e6a5f069
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -10,6 +14,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+<<<<<<< HEAD
     "nodemon": "^2.0.14"
+=======
+    "express-session": "^1.17.2"
+>>>>>>> 47d552ccfd3262cf0929e352f90ce3d8e6a5f069
   }
 }
